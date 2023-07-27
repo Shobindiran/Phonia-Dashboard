@@ -11,6 +11,11 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
+h2,section{
+    padding:0px !important;
+    margin:0px;
+}
+
 /* Menu starts */
 
 ul{
@@ -23,10 +28,13 @@ ul li{
     margin:15px 0px 15px 0px;
     color:#707070;
     transition: color 0.5s;
+    
+    
 }
 
 ul li:hover{
     color:#ffffff;
+    border-right:4px solid #18FF6D;
 }
 
 .menu-wrapper>div>div{
@@ -55,6 +63,7 @@ ul li:hover{
 
 .menu-wrapper>div:first-child ul li:nth-child(2){
     list-style-image: url(./images/menu-images/trend.svg);
+    
 }
 
 .menu-wrapper>div:first-child ul li:nth-child(3){
@@ -101,4 +110,107 @@ ul li:hover{
 
 .menu-wrapper>div:last-child ul{
     list-style-image: url(./images/menu-images/disc.svg);
+}
+
+/* menu ends */
+
+
+/* app starts */
+
+/* first child */
+.app-wrapper>div:first-child{
+    padding:50px 0px 50px 0px;
+}
+
+.app-wrapper>div:first-child>div:first-child{
+    width:40%;
+}
+
+.app-wrapper>div:first-child>div:last-child{
+    width:60%;
+}
+
+
+.app-wrapper>div:first-child>div:last-child>:first-child{
+    width:60%;
+}
+
+.app-wrapper>div:first-child>div:last-child>:first-child input{
+    width: 100%;
+    background-color: #ffffff52;
+    color:white;
+    height: 40px;
+    border:none;
+    border-radius:11px;
+}
+
+.app-wrapper>div:first-child>div:last-child>:first-child input::placeholder{
+    color: white;
+    font-size:14px;
+    font-weight:200;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left:40px;
+}
+
+.app-wrapper>div:first-child>div:first-child h2{
+    font-size:42px;
+    font-weight:400;
+}
+
+.app-wrapper>div:first-child>div:first-child p{
+    font-size:16px;
+    font-weight:400;
+    padding:10px 0px 10px 0px;
+}
+
+/* second child */
+
+.app-wrapper>div:nth-child(2){
+    padding-bottom:50px;
+}
+
+.app-wrapper>div:nth-child(2)>div>div>img{
+    width:100%;
+}
+
+.app-wrapper>div:nth-child(2)>div>div:last-child{
+    padding:10px 0px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.app-wrapper>div:nth-child(2)>div>div:last-child>div img{
+    width:100%;
+}
+
+/* last or 3rd child */
+
+.app-wrapper>div:last-child>div:first-child{
+    width:45%;
+}
+
+.app-wrapper>div:last-child>div:nth-child(2){
+    width:25%;
+}
+
+.app-wrapper>div:last-child>div:last-child{
+    width:25%;
+}
+table{
+    width:100%;
+    text-align: left;
+}
+tr:first-child{
+    border-bottom:1px solid #606060 ;
+}
+th,td{
+    padding:10px;
+}
+
+tr:hover{
+    background-color:#ffffff1d;
 }
