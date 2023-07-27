@@ -1,0 +1,104 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: black url(./images/background.svg) no-repeat;
+    background-size:cover;
+    color:white;
+    font-family: 'Jost', sans-serif;
+}
+
+/* Menu starts */
+
+ul{
+    font-size:17px;
+    font-weight: 500;
+    list-style: none;
+}
+
+ul li{
+    margin:15px 0px 15px 0px;
+    color:#707070;
+    transition: color 0.5s;
+}
+
+ul li:hover{
+    color:#ffffff;
+}
+
+.menu-wrapper>div>div{
+    display:flex;
+    align-items:center;
+}
+
+.menu-wrapper>div:first-child{
+    padding:30px 0px 50px 0px;
+}
+
+.menu-wrapper>div:first-child>div{
+    padding:20px 0px 50px 0px;
+    gap:20px;
+}
+
+.menu-wrapper>div:first-child div span{
+    font-size:20px;
+    font-weight:500;
+}
+
+.menu-wrapper>div:first-child ul li:nth-child(1){
+    list-style-image: url(./images/menu-images/discover.svg);
+    
+}
+
+.menu-wrapper>div:first-child ul li:nth-child(2){
+    list-style-image: url(./images/menu-images/trend.svg);
+}
+
+.menu-wrapper>div:first-child ul li:nth-child(3){
+    list-style-image: url(./images/menu-images/genres.svg);
+}
+
+.menu-wrapper>div:first-child ul li:nth-child(4){
+    list-style-image: url(./images/menu-images/radio.svg);
+}
+
+.menu-wrapper>div:first-child ul li:nth-child(5){
+    list-style-image: url(./images/menu-images/artist.svg);
+}
+
+.menu-wrapper>div:first-child ul li:nth-child(6){
+    list-style-image: url(./images/menu-images/album.svg);
+}
+
+
+.menu-wrapper>div:last-child{
+    padding:100px 0px;
+}
+
+.menu-wrapper>div:last-child>div{
+    padding:15px 0px 15px 0px;
+    border-bottom: 2px solid #707070;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.menu-wrapper>div:last-child div span{
+    font-size:18px;
+    font-weight:400;
+}
+
+.menu-wrapper>div:last-child div img{
+    padding: 10px;
+    border-radius: 7px;
+    transition:background-color 0.5s ;
+}
+.menu-wrapper>div:last-child div img:hover{
+    background-color: #ffffff3d;
+}
+
+.menu-wrapper>div:last-child ul{
+    list-style-image: url(./images/menu-images/disc.svg);
+}
