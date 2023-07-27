@@ -15,6 +15,28 @@ h2,section{
     padding:0px !important;
     margin:0px;
 }
+/* shared styles */
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.656);
+    font-size:16px;
+    font-weight:400;
+}
+
+h3{
+    padding-bottom:30px;
+    font-size:24px;
+    font-weight:400;
+}
+
+tr{
+    transition: background 0.5s;
+}
+
+tr:hover{
+    background-color:#ffffff1d;
+}
 
 /* Menu starts */
 
@@ -193,24 +215,62 @@ ul li:hover{
     width:45%;
 }
 
-.app-wrapper>div:last-child>div:nth-child(2){
-    width:25%;
-}
-
-.app-wrapper>div:last-child>div:last-child{
-    width:25%;
-}
-table{
+.playlist{
     width:100%;
     text-align: left;
 }
-tr:first-child{
+.playlist tr:first-child{
     border-bottom:1px solid #606060 ;
 }
-th,td{
+.playlist th,td{
     padding:10px;
 }
 
-tr:hover{
-    background-color:#ffffff1d;
+.app-wrapper>div:last-child>div:nth-child(2){
+    width:25%;
+    background-color: #ffffff1d;
+    border-radius:11px;
+    padding:10px;
 }
+
+.top-artist{
+    width: 90%;
+    margin:0px auto;
+}
+
+
+.app-wrapper>div:last-child>div:last-child{
+    width:25%;
+    background-color: #ffffff1d;
+    border-radius:11px;
+    padding:20px;
+}
+
+.app-wrapper>div:last-child>div:last-child>div:nth-child(2) span{
+    dont-size:14px;
+    font-weight:400;
+}
+
+.app-wrapper>div:last-child>div:last-child>div:nth-child(3){
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 0px 0px 15px 0px;
+}
+
+.app-wrapper>div:last-child>div:last-child>div:last-child{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-wrapper>div:last-child>div:last-child>div:last-child img{
+    padding: 10px;
+    border-radius: 11px;
+    transition: background 0.5s;
+}
+
+.app-wrapper>div:last-child>div:last-child>div:last-child img:hover{
+    background-color: #606060;
+} 
